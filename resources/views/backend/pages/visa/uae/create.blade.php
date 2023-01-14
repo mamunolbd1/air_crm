@@ -617,7 +617,46 @@ UAE Visa Create
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group div-cancel text-center" style="border: 1px solid #007bff;height: 200px;display: flex;flex-direction: column;align-items: center;justify-content: space-between;     padding-top: 20px;">
+                      
+            <div>
+              <i style="    font-size: 30px;" class="nav-icon fas fa-clock"></i>
+            </div>
+            <div class="form-check"> 
+            <label style="display: flex;" for="exampleInputEmail1">Waiting 
+              
+              <input type="radio"  name="status" id="status" value="Waiting" class="form-check-input radio-status" style="transform: scale(2);     margin-left: -30px;" required >
+            
+            </label>
+            </div>
+            <div class="div-status-desc">
+              <p style="text-align: center;    font-size: 13px;"> The application will be kept in your waiting list, you may send or cancel it later.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="form-group div-cancel" style="border: 1px solid #007bff;height: 200px;display: flex;flex-direction: column;align-items: center;justify-content: space-between;     padding-top: 20px;">
+                      
+            <div>
+              <i style="    font-size: 30px;" class="nav-icon fas fa-check"></i>
+            </div>
+            <div class="form-check"> 
+            <label style="display: flex;" for="exampleInputEmail1">Send 
+              <input type="radio" name="status"  value="Send" id="status" class="form-check-input radio-status" style="transform: scale(2);     margin-left: -30px;" required >
+              </label>
+            </div>
+            <div class="div-status-desc">
+              <p style="text-align: center;    font-size: 13px;"> The application will be sent for posting, you may NOT be able to change it later.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 @endsection
+
+
