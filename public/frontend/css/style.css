@@ -1,0 +1,9 @@
+.input-group-prepend {
+    flex: 0 0 45%;
+}
+.input-group-text {
+    width: 100%;
+}
+.custom-file{
+    margin-left: 233px;
+}

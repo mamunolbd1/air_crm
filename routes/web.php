@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\AdminPagesController;
+use App\Http\Controllers\Frontend\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use App\Http\Controllers\Backend\AdminPagesController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+//Frontend
+Route::get('/','Frontend\PagesController@index')->name('index');
+
 // Backend
 Route::group(['prefix' => 'admin'], function()
 {
